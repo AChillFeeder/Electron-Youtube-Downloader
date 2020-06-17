@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='index.css'>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<title>Youtube download</title>
+</head>
+<body>
+	<button class='nav-button' id='close-window' onclick='window.close()'><img src="assets/round_close_white_24dp.png"></button>
+	<div id="form">
+		<form id='the-actual-form'>
+			<input placeholder="Enter link" type="text" id="link" spellcheck="false" autofocus> 
+			<button type="submit" onclick="addVideo()">Add</button>
+		</form>
+	</div>
+
+	<div id="videos-container" onscroll=""></div>
+
+	<div id="download-div">
+		<button id="download-all">Download All Listed Videos</button>
+	</div>
+
+	<script src="revamp.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
